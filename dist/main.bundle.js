@@ -255,7 +255,7 @@ eval("module.exports = __webpack_require__.p + \"fonts/BebasNeueRegular.woff2\";
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("932364e9e5062c448b4b")
+/******/ 		__webpack_require__.h = () => ("313cad68535fbdaa215b")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
