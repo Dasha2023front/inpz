@@ -51,9 +51,6 @@
             </div>
             <ul class="dropdown__list">
               <li class="dropdown__list-item" data-value="category1">
-                <span>Москва</span>
-              </li>
-              <li class="dropdown__list-item" data-value="category1">
                 <span>Самара</span>
               </li>
               <li class="dropdown__list-item" data-value="category2">
@@ -238,13 +235,13 @@
               </div>
               <div class="form__field form__field2">
                 <label for="telField">Телефон</label>
-                <input id="phone" type="tel" name="name" placeholder="номер для связи"
-                  minlength="16" maxlength="16" required/>
+                <input id="phone" type="tel" name="name" placeholder="номер для связи" minlength="18" maxlength="18"
+                  required />
                 <span class="form__error">Телефон указан неверно</span>
               </div>
               <div class="form__field form__field3">
                 <label for="emailField">Рабочая почта</label>
-                <input id="emailField" type="email" name="name" placeholder="j.konstantin@i-npz.ru"  required/>
+                <input id="emailField" type="email" name="name" placeholder="j.konstantin@i-npz.ru" required />
                 <span class="form__error">Это поле должно содержать E-Mail в формате example@site.com</span>
               </div>
             </div>
@@ -255,6 +252,12 @@
     </main>
   </div>
   <script type="text/javascript" src="54fc361a0cb25e7c1621.js"></script>
+  <script>
+    let maskOptions = {
+      mask: "+7 (000) 000-00-00",
+    };
+    IMask(phone, maskOptions);
+  </script>
 </body>
 
 </html>
