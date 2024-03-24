@@ -73,7 +73,3 @@ document.addEventListener("click", (e) => {
 //     e.preventDefault();
 // });
 
-let maskOptions = {
-  mask: "+7 (000) 000-00-00",
-};
-IMask(phone, maskOptions);
